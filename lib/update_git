@@ -1,0 +1,13 @@
+#!/bin/bash
+# lib/update_git
+# Copyright Vince Mulhollon 2014 
+# GPLv3 license
+
+echo nih update_git $1 begin | $NIHLOG
+
+cd $1
+# git pull -q
+
+echo nih update_git $1 finish | $NIHLOG
+
+exit 0

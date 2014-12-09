@@ -1,0 +1,10 @@
+doc/standards
+
+I abandoned 80 column text years and years ago.
+
+All log messages should be "bracketed" by a begin and finish message, even null jobs.
+This way any thing unusual thats timestamped can be correlated to fit between a specific begin/finish.
+A copy of a null job is a good starting point for a new job, so they should properly log.
+
+The runtime for a module should always be "run.sh" and its the only reserved filename inside a module directory.
+

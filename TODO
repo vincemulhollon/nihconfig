@@ -1,0 +1,14 @@
+TODO
+
+better error logging / error detection
+
+lib/log routine for stashing into a logfile bypassing syslog
+
+lib/log routine for logging directing into a database
+
+lib/update routine for zipped or tar.gz based distribution
+
+lib/update routine for configs stored as blobs in databases
+
+lib/update routine for configs stored on (https://) web servers
+

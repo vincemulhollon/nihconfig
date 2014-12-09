@@ -1,0 +1,31 @@
+#!/bin/bash
+# nih
+# Copyright Vince Mulhollon 2014 
+# GPLv3 license
+
+# Some example NIH home directories that could inspire some implementations
+# export NIHROOTDIR=/usr/local/etc/nihconfig/nihconfig
+# export NIHROOTDIR=/usr/local/etc/nih-global
+# export NIHROOTDIR=/usr/local/etc/nih-department
+# export NIHROOTDIR=/usr/local/etc/nih-$HOSTNAME
+export NIHROOTDIR=~/nihconfig
+
+# Systemwide logging
+# In production you would likely want something like log_syslog
+export NIHLOG=$NIHROOTDIR/lib/log_echo
+
+### Should not have to edit below this line
+
+export NIHLIBDIR=$NIHROOTDIR/lib
+
+export NIHMODDIR=$NIHROOTDIR/modules
+
+echo nih begin | $NIHLOG
+
+$NIHMODDIR/update/run.sh
+
+$NIHROOTDIR/run
+
+echo nih finish | $NIHLOG
+
+exit 0

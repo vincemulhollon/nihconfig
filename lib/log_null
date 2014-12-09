@@ -1,0 +1,6 @@
+#!/bin/bash
+# lib/log_null
+# Copyright Vince Mulhollon 2014 
+# GPLv3 license
+
+exit 0

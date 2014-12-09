@@ -1,0 +1,9 @@
+#!/bin/bash
+# lib/log_syslog
+# Copyright Vince Mulhollon 2014 
+# GPLv3 license
+
+read line
+echo $line | logger
+
+exit 0

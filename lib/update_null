@@ -1,0 +1,10 @@
+#!/bin/bash
+# lib/update_null
+# Copyright Vince Mulhollon 2014 
+# GPLv3 license
+
+echo nih update_null $1 begin | $NIHLOG
+
+echo nih update_null $1 finish | $NIHLOG
+
+exit 0
