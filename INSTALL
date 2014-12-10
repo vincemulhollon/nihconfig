@@ -31,5 +31,9 @@ Somewhere, probably in roots homedir, create an executable shell script
 /usr/local/etc/nih-freebsd/nih
 /usr/local/etc/nih-$HOSTNAME/nih
 
+Personally, I keep most of my modules in git branch master, and keep little more than run files in the branches.
+
+There is a constant tension between making multiple short simple modules, like a ldap-freebsd and a ldap-debian, vs making a long concatenated script that mostly wraps the shorter modules mentioned into giant "if ostype = xxx" stanzas, vs making really complicated scripts that figure out what to do based on OS and situation, line by line.
+
 exit 0
 
