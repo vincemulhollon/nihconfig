@@ -1,0 +1,35 @@
+INSTALL
+
+One of many deployment possibilties taking advantage of git's branching and merging abilities:
+
+git clone gitolite@blah.blah.blah:nih /usr/local/etc/nih-global
+cd /usr/local/etc/nih-global
+git branch global (if it somehow doesn't exit)
+git checkout global
+git push --set-upstream origin global
+
+git clone gitolite@blah.blah.blah:nih /usr/local/etc/nih-freebsd
+cd /usr/local/etc/nih-freebsd
+git branch freebsd (if it somehow doesn't exit)
+git checkout freebsd
+git push --set-upstream origin freebsd
+
+git clone gitolite@blah.blah.blah:nih /usr/local/etc/nih-vince.mulhollon.com
+cd /usr/local/etc/nih-vince.mulhollon.com
+git branch vince.mulhollon.com
+git checkout vince.mulhollon.com
+git push --set-upstream origin vince.mulhollon.com
+
+Each branch needs an edited NIHROOTDIR and probably NIHLOG edited in the top level nih file.
+Each branch will need substantial editing of the run script and modules added
+
+Somewhere, probably in roots homedir, create an executable shell script
+
+#!/bin/bash
+
+/usr/local/etc/nih-global/nih
+/usr/local/etc/nih-freebsd/nih
+/usr/local/etc/nih-$HOSTNAME/nih
+
+exit 0
+
