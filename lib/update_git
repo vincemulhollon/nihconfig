@@ -6,7 +6,7 @@
 echo nih update_git $1 begin | $NIHLOG
 
 cd $1
-# git pull -q
+git pull -q
 
 echo nih update_git $1 finish | $NIHLOG
 
