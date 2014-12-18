@@ -12,8 +12,8 @@
 # $NIHLOG is your local logging system
 # $NIHLIBDIR is the library path
 # $HOST is the local hostname.  Not FQDN
-# $HOSTTYPE is FreeBSD
-# $OSTYPE is FreeBSD
+# $HOSTTYPE is FreeBSD on FreeBSD.  On Debian it seems to be x86_64
+# $OSTYPE is FreeBSD on FreeBSD.  On Debian it seems to be linux-gnu
 
 # If a command generates output, log it by piping like this | $NIHLOG
 
