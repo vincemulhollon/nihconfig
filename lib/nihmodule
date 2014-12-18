@@ -1,0 +1,16 @@
+#!/bin/bash
+# nihconfig/lib/nihmodule
+# Copyright Vince Mulhollon 2014 
+# GPLv3 license
+
+# Log the module has begun processing
+# Sets the environment variable for the module dir NIH
+# Run the module
+# Log the module has finished processing
+
+nihmodule () {
+  echo nih $1 begin | $NIHLOG
+  export NIH=$NIHMODDIR/$1
+  $NIH/run.sh
+  echo nih $1 finish | $NIHLOG
+}

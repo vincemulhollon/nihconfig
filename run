@@ -3,6 +3,8 @@
 # Copyright Vince Mulhollon 2014 
 # GPLv3 license
 
-$NIHMODDIR/null/run.sh
+source $NIHLIBDIR/nihmodule
+
+nihmodule null
 
 exit 0
