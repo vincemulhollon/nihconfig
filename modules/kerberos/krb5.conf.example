@@ -1,0 +1,23 @@
+# /etc/krb5.conf
+# from /usr/local/etc/nih-Something/modules/kerberos/krb5.conf  <- edit here and below
+[libdefaults]
+        default_realm = SOMETHING.COM
+        forwardable = true
+        proxiable = true
+        allow_weak_crypto = true
+
+[realms]
+	SOMETHING.COM = {
+		kdc = kerberos.SOMETHING.com
+		kdc = SOMETHING ELSE.SOMETHING.com
+		admin_server = kerberos.SOMETHING.com
+	}
+
+[domain_realm]
+	.something.com = SOMETHING.COM
+	something.com = SOMETHING.COM
+
+[logging]
+	kdc = FILE:/var/log/kerberos/krb5kdc.log
+	admin_server = FILE:/var/log/kerberos/kadmin.log
+	default = FILE:/var/log/kerberos/krb5lib.log
