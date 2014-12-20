@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/ballyhoo
+# from /usr/local/etc/nih-freebsd/modules/frotz/ballyhoo 
+
+/usr/local/bin/frotz /usr/local/games/frotz/ballyhoo.z
+
+exit 0

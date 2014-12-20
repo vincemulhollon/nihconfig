@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/witness
+# from /usr/local/etc/nih-freebsd/modules/frotz/witness 
+
+/usr/local/bin/frotz /usr/local/games/frotz/witness.z
+
+exit 0

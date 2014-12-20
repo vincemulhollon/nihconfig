@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/hollywoodhijinks
+# from /usr/local/etc/nih-freebsd/modules/frotz/hollywoodhijinks 
+
+/usr/local/bin/frotz /usr/local/games/frotz/hollywoodhijinks.z
+
+exit 0

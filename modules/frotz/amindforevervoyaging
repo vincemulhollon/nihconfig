@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/amindforevervoyaging
+# from /usr/local/etc/nih-freebsd/modules/frotz/amindforevervoyaging 
+
+/usr/local/bin/frotz /usr/local/games/frotz/amindforevervoyaging.z
+
+exit 0

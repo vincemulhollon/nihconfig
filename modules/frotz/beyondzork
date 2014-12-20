@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/beyondzork
+# from /usr/local/etc/nih-freebsd/modules/frotz/beyondzork 
+
+/usr/local/bin/frotz -d /usr/local/games/frotz/beyondzork.z
+
+exit 0

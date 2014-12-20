@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/bureaucracy
+# from /usr/local/etc/nih-freebsd/modules/frotz/bureaucracy 
+
+/usr/local/bin/frotz /usr/local/games/frotz/bureaucracy.z
+
+exit 0

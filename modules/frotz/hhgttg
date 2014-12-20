@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/hhgttg
+# from /usr/local/etc/nih-freebsd/modules/frotz/hhgttg
+
+/usr/local/bin/frotz /usr/local/games/frotz/hhgttg.z
+
+exit 0

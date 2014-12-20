@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/sherlock
+# from /usr/local/etc/nih-freebsd/modules/frotz/sherlock 
+
+/usr/local/bin/frotz -d /usr/local/games/frotz/sherlock.z
+
+exit 0

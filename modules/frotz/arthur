@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/arthur
+# from /usr/local/etc/nih-freebsd/modules/frotz/arthur 
+
+/usr/local/bin/frotz -d /usr/local/games/frotz/arthur.z
+
+exit 0
