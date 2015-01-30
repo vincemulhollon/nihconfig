@@ -20,8 +20,15 @@ git branch vince.mulhollon.com
 git checkout vince.mulhollon.com
 git push --set-upstream origin vince.mulhollon.com
 
+I have a global branch, some OS specific branches, some role branches (desktop, etc), and some machines have a specifically named branch.
+
+I use standard git techniques to pull from github into my own repo and to merge changes in master into the branches.
+
+An interesting alternative might be to git-flow the repo and create release branches with names like release-global, etc.
+
 Each branch needs an edited NIHROOTDIR and probably NIHLOG edited in the top level nih file.
 Each branch will need substantial editing of the run script and modules added
+Note that all example upstream config files have a .example suffix added, you'll have to copy and create your own
 
 Somewhere, probably in roots homedir, create an executable shell script
 

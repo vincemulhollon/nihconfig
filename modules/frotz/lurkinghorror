@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/lurkinghorror
+# from /usr/local/etc/nih-freebsd/modules/frotz/lurkinghorror 
+
+/usr/local/bin/frotz /usr/local/games/frotz/lurkinghorror.z
+
+exit 0

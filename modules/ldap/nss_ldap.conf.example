@@ -1,0 +1,10 @@
+# /usr/local/etc/nss_ldap.conf
+# from /usr/local/etc/nih-something/modules/ldap/nss_ldap.conf  <- edit here and below
+
+host 10.something.something.something
+base dc=something,dc=com
+
+uri ldap://10.something.something.something/
+
+ldap_version 3
+

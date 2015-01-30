@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/suspect
+# from /usr/local/etc/nih-freebsd/modules/frotz/suspect 
+
+/usr/local/bin/frotz /usr/local/games/frotz/suspect.z
+
+exit 0

@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/deadline
+# from /usr/local/etc/nih-freebsd/modules/frotz/deadline 
+
+/usr/local/bin/frotz /usr/local/games/frotz/deadline.z
+
+exit 0

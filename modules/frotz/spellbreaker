@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/spellbreaker
+# from /usr/local/etc/nih-freebsd/modules/frotz/spellbreaker 
+
+/usr/local/bin/frotz /usr/local/games/frotz/spellbreaker.z
+
+exit 0

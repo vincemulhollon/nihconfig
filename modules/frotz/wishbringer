@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/wishbringer
+# from /usr/local/etc/nih-freebsd/modules/frotz/wishbringer 
+
+/usr/local/bin/frotz /usr/local/games/frotz/wishbringer.z
+
+exit 0

@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/cutthroats
+# from /usr/local/etc/nih-freebsd/modules/frotz/cutthroats 
+
+/usr/local/bin/frotz /usr/local/games/frotz/cutthroats.z
+
+exit 0

@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/sorcerer
+# from /usr/local/etc/nih-freebsd/modules/frotz/sorcerer
+
+/usr/local/bin/frotz /usr/local/games/frotz/sorcerer.z
+
+exit 0

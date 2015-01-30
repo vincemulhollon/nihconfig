@@ -1,0 +1,16 @@
+# /etc/sysctl.conf
+# from /usr/local/etc/nih-$HOSTNAME/modules/sysctl/sysctl.conf  <- edit here and below
+
+# From the freebsd handbook WRT video playback
+kern.ipc.shmmax=67108864
+# If (EE) NVIDIA(0): Failed to obtain a shared memory identifier appears in xorg log, then increase below:
+kern.ipc.shmall=32768
+
+# for the linux-base package 
+compat.linux.osrelease=2.6.18
+
+# From some Qt widget config
+#kern.ipc.shmall=32768
+kern.ipc.shmmni=1024
+kern.ipc.shmseg=1024
+

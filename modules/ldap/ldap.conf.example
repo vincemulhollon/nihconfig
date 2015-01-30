@@ -1,0 +1,8 @@
+# /usr/local/etc/openldap/ldap.conf
+# /usr/local/etc/ldap.conf
+#
+# from /usr/local/etc/nih-something/modules/ldap/ldap.conf  <- edit here and below
+#
+BASE		dc=something,dc=com
+URI		ldap://10.something.something.someting
+SASL_MECH	GSSAPI

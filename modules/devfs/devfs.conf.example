@@ -1,0 +1,10 @@
+# /etc/devfs.conf
+# from /usr/local/etc/nih-$HOSTNAME/modules/devfs/desvfs.conf  <- edit here and below
+#
+# From the freebsd handbook video section
+link	cd0	cdrom
+link	cd0	dvd
+#
+# For linux_base system
+link	/tmp	shm
+#

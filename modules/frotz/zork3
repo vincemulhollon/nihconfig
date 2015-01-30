@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/zork3
+# from /usr/local/etc/nih-freebsd/modules/frotz/zork3 
+
+/usr/local/bin/frotz /usr/local/games/frotz/zork3.z
+ 
+exit 0

@@ -20,12 +20,11 @@ export NIHLIBDIR=$NIHROOTDIR/lib
 
 export NIHMODDIR=$NIHROOTDIR/modules
 
-echo nih begin | $NIHLOG
+# This pulls in any new changes, such as perhaps changes to run or new modules
+source $NIHLIBDIR/nihmodule
+nihmodule update
 
-$NIHMODDIR/update/run.sh
-
+# run calls modules
 $NIHROOTDIR/run
-
-echo nih finish | $NIHLOG
 
 exit 0

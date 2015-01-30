@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/seastalker
+# from /usr/local/etc/nih-freebsd/modules/frotz/seastalker 
+
+/usr/local/bin/frotz /usr/local/games/frotz/seastalker.z
+
+exit 0

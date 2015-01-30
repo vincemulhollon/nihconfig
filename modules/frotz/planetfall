@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/planetfall
+# from /usr/local/etc/nih-freebsd/modules/frotz/planetfall 
+
+/usr/local/bin/frotz /usr/local/games/frotz/planetfall.z
+
+exit 0

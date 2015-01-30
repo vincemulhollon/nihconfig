@@ -1,0 +1,10 @@
+#!/bin/bash
+# nihconfig/run
+# Copyright Vince Mulhollon 2014 
+# GPLv3 license
+
+source $NIHLIBDIR/nihmodule
+
+nihmodule null
+
+exit 0

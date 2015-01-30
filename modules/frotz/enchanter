@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+# /usr/local/bin/enchanter
+# from /usr/local/etc/nih-freebsd/modules/frotz/enchanter 
+
+/usr/local/bin/frotz /usr/local/games/frotz/enchanter.z
+
+exit 0

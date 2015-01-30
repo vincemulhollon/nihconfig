@@ -1,8 +1,8 @@
 #!/bin/bash
-# nihconfig/run
+# modules/loader/run.sh
 # Copyright Vince Mulhollon 2014 
 # GPLv3 license
 
-$NIHMODDIR/null/run.sh
+cp $NIH/loader.conf /boot/loader.conf
 
 exit 0

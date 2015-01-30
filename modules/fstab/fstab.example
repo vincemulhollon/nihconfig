@@ -1,0 +1,9 @@
+# /etc/fstab
+# from /usr/local/etc/nih-$HOSTNAME/modules/fstab/fstab  <- edit here and below
+#
+# Device	Mountpoint		FStype		Options		Dump	Pass
+/dev/ada0p2	none			swap		sw		0	0
+fdesc		/dev/fd			fdescfs		rw		0	0
+proc		/proc			procfs		rw		0	0
+linproc		/compat/linux/proc	linprocfs	rw		0	0
+#
